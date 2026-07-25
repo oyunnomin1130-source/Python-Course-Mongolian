@@ -16,7 +16,24 @@ bool — True / False
 
 ## Дараалсан өгөгдөл (Sequence Types)
 list
-
 tuple
-
 set
+# Жишээ код
+a = '56'
+b = 67.34
+c = [67, 56, 9, 6, -7]
+e = 89 + 7j
+d = "Nomin"
+d1 = "bol mongol"
+
+print("a + b =", int(a) + b)
+print(d + str(b))
+
+print("a төрөл:", type(a))
+print("b төрөл:", type(b))
+print("c төрөл:", type(c))
+print("d төрөл:", type(d))
+print("e төрөл:", type(e))
+
+print(d + " " + d1)
+
