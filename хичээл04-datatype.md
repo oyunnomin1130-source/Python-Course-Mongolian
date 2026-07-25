@@ -11,7 +11,8 @@ complex — комплекс тоо (жишээ: 89 + 7j)
 
 ## Текстэн өгөгдөл (String)
 str — текст, үсэг, өгүүлбэр
-Логик өгөгдөл (Boolean)
+
+## Логик өгөгдөл (Boolean)
 bool — True / False
 
 ## Дараалсан өгөгдөл (Sequence Types)
@@ -19,21 +20,32 @@ list
 tuple
 set
 # Жишээ код
-a = '56'
-b = 67.34
-c = [67, 56, 9, 6, -7]
-e = 89 + 7j
-d = "Nomin"
-d1 = "bol mongol"
+a = '56'          # string
+
+b = 67.34         # float
+
+c = [67,56,9,6,-7]# list
+
+e = 89 + 7j       # complex
+
+d = "Nomin"       # string
+
+d1 = "bol mongol" # string
+
+
 
 print("a + b =", int(a) + b)
+
 print(d + str(b))
 
-print("a төрөл:", type(a))
-print("b төрөл:", type(b))
-print("c төрөл:", type(c))
-print("d төрөл:", type(d))
-print("e төрөл:", type(e))
+print(type(a))  # <class 'str'>
 
-print(d + " " + d1)
+print(type(b))  # <class 'float'>
+
+print(type(c))  # <class 'list'>
+
+print(type(d))  # <class 'str'>
+
+print(type(e))  # <class 'complex'>
+
 
